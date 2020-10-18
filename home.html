@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HOME</title>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color:rgb(0, 0, 0,0.7);
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color:rgb(128, 128, 128);
+            }
+            body{
+                background-color: #b3c6ff;
+            }
+            .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color:rgb(0, 0, 0,0.7);
+                color: white;
+                text-align: center;
+            }
+            .b1 {
+                margin-top: 60px;
+                margin-left: 40%;
+
+            }
+            .c1{
+                color: #fff !important;
+                text-transform: uppercase;
+                text-decoration: none;
+                background: #60a3bc;
+                padding: 20px;
+                border-radius: 50px;
+                display: inline-block;
+                border: none;
+                transition: all 0.4s ease 0s;
+                margin-left:3%;
+            }
+            .b2{
+                margin-right:45%;
+                margin-top:70px;
+            }  
+            .b2 .btn1{
+                position: absolute;
+                top: 45%;
+                left: 49%;
+                transform: translate(-50%, -50%);
+               -ms-transform: translate(-50%, -50%);
+                background-color: #555;
+                color: white;
+                font-size: 16px;
+                padding: 12px 24px;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                text-align: center;
+            }  
+            .b2 .btn1:hover{
+                background-color: black;
+            }
+            .b2 .btn2{
+                position: absolute;
+                top: 55%;
+                left: 49%;
+                transform: translate(-50%, -50%);
+               -ms-transform: translate(-50%, -50%);
+                background-color: #555;
+                color: white;
+                font-size: 16px;
+                padding: 12px 26px;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                text-align: center;
+            }
+            .b2 .btn2:hover{
+                background-color: black;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+        </ul>
+        <div class="b1">
+          <button class ="c1">Basic Banking System</button>
+        </div>
+        <div class="b2">
+            <img src="img1.png" width="450px" height="380px">
+                <a href="users.php"><button class="btn1">VIEW CUSTOMERS</button></a>
+            <a href="transfer.php"><button class="btn2">START TRANSFER</button></a>
+            </form>
+        </div>
+        <div class="footer">
+            <p>&copy;Designed by Shubha B K</p>
+            <p>This simple system allows credit transfer among multiple users</p>
+        </div>  
+    </body>
+</html>
